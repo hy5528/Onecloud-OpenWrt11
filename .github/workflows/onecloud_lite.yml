@@ -299,7 +299,7 @@ jobs:
         tag_name: ${{ env.OPENWRT_TAG }}
         body_path: release.txt
         files: ${{ env.FIRMWARE }}/*
-      body: |
+        body: |
           This is OpenWrt firmware for OneCloud
           ### 📒 Firmware information
           - 🚀 amlogic_meson8b 多功能版，集成插件多
