@@ -210,7 +210,7 @@ jobs:
           ### 📒 Firmware information
           - 🚀 amlogic_meson8b 多功能版，集成插件多
           - 💋一键扩容 cd /root ./expand-root.sh
-          - 💻 平台架构: ${{ env.DEVICE_TARGET }}-${{ env.DEVICE_SUBTARGET }}
+          - 💻 平台架构: ARMV7
           - ⚽ 固件源码:  https://github.com/coolsnowwolf/lede
           - 💝 源码分支: master
           - 🌐 Default IP: 192.168.2.158
