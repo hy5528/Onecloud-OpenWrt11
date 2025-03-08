@@ -167,7 +167,7 @@ jobs:
           sudo rm -rf openwrt/bin/targets/*/*/*.img
           sudo rm -rf openwrt/bin/targets/*/*/*.gz
   
-     name: Check space usage
+    - name: Check space usage
       if: (!cancelled())
       run: df -hT
   
